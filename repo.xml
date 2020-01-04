@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/rhld16</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>Want to see my stuff?</name>
+			<url>https://github.com/rhld16</url>
+			<iconclass>fa fa-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>
