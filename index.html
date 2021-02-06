@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="rhld16" />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>rhld16</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/js/fontawesome.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">rhld16</span>
+          <span class="site-description">Full Stack Web Developer</span>
+        </h1>
+        <div class="header-icons">
+          <a
+            aria-label="My Github Profile"
+            target="_blank"
+            href="https://github.com/rhld16"
+          >
+            <i class="icon fab fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="Send Email"
+            href="mailto:hi@rhld16.me"
+            target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll
+        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+      ></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About</h1>
+        <img
+          src="https://avatars.githubusercontent.com/u/24809571"
+          alt="Ffoto"
+          width="20%"
+        />
+        <p>Hi, I'm just a normal person on the internet doing normal things.</p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user-details">
+        <h1>Skills</h1>
+      </div>
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <i class="devicon-vuejs-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+
+        <!-- Technology Stack #3: Back-End -->
+        <div class="tech">
+          <h2>Back-End</h2>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-express-original colored"></i>
+          <i class="devicon-mongodb-plain colored"></i>
+          <i class="devicon-docker-plain colored"></i>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-heroku-plain colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain colored"></i>
+        </div>
+      </div>
+      <a href="https://github.com/rhld16">
+        <img style="display: block;margin: 0 auto;" src="https://github-readme-stats.vercel.app/api?username=rhld16&count_private=true&show_icons=true&theme=tokyonight" />
+      </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+
+      <!-- User Project #1: Zwift Insider Discord Bot -->
+      <div class="user-projects">
+        <div class="images-right">
+          <img
+            alt="Zwift Insider Discord Bot"
+            src="./images/zwift.png"
+            style="height:350px;"
+          />
+        </div>
+        <div class="contents" style="text-align: center;">
+          <h3>Zwift Insider Discord Bot</h3>
+          <div>
+            <i style="font-size: 2.2em;" class="devicon-mongodb-plain-wordmark colored"></i>
+            &nbsp;
+            <i style="font-size: 2.2em;" class="devicon-nodejs-plain colored"></i>
+          </div>
+          <p style="text-align: justify;">
+            I developed and designed a website using Bootstrap and vanilla
+            JavaScript to showcase my résumé in an interactive and
+            visually-appealing format. I'm currently in the middle of migrating
+            the project to a ReactJS framework with GatsbyJS.
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/rhld16/ZwiftInsiderDiscordBot"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #2: Pinky Ponk -->
+      <div class="user-projects">
+        <div class="images-left">
+          <img
+            alt="Pinky Ponk"
+            src="./images/pinkyponk.jpg"
+            style="height:350px;"
+          />
+        </div>
+        <div class="contents-right" style="text-align: center;">
+          <h3>Pinky Ponk</h3>
+          <i style="font-size: 2.2em;" class="devicon-objectivec-plain colored"></i>
+          <p style="text-align: justify;">
+            This was a simple iOS tweak to toggle one tap wifi and bluetooth modules. 
+            Options are in settings to toggle if you want either wifi or bluetooth to be "one-tap". 
+            Total Downloads: 7,730
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/rhld16/iOS-WiFi-Tweak"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: Trigpoints Wales -->
+      <div class="user-projects">
+        <div class="images-right">
+          <img
+            alt="Trigpoints Wales"
+            src="./images/tpwales.png"
+          />
+        </div>
+        <div class="contents" style="text-align: center;">
+          <h3>Trigpoints Wales</h3>
+          <div>
+            <i style="font-size: 2.2em;" class="devicon-html5-plain colored"></i>
+            <i style="font-size: 2.2em;" class="devicon-javascript-plain colored"></i>
+            <i style="font-size: 2.2em;" class="devicon-css3-plain colored"></i>
+          </div>
+          <p style="text-align: justify;">
+            I created a web application for tracking a person's trigpoints completion in Wales.
+            Using Strava Activity API, the website processes a person's activities data (on device utilising a web worker) to create
+            a nicely looking map.
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/rhld16/trigpointswales"
+          >
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; rhld16, 2021</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/sweet-scroll@4.0.0/sweet-scroll.min.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
