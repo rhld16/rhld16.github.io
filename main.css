@@ -28,10 +28,6 @@ h3 {
     font-size: 1.5rem
 }
 
-h4 {
-    font-size: 1rem
-}
-
 #particles-js {
     background: #1488CC;
     /* fallback for old browsers */
@@ -123,7 +119,8 @@ h4 {
 .down,
 .header-icons .icon {
     color: #fff;
-    text-align: center
+    text-align: center;
+    cursor: pointer;
 }
 
 .header-icons .icon {
@@ -158,7 +155,6 @@ h4 {
     margin: 0 auto;
     display: block;
     font-size: 30px;
-    cursor: pointer
 }
 
 .down .icon {
@@ -208,10 +204,6 @@ h4 {
     justify-content: space-between;
 }
 
-.user p {
-    font-size: 16px
-}
-
 @media only screen and (min-width:550px) {
     .user {
         flex-wrap: nowrap;
@@ -247,15 +239,6 @@ h4 {
     max-width: 100%;
     height: auto;
     text-align: center;
-}
-
-.user-projects h5 {
-    margin: 0
-}
-
-.user-projects li {
-    color: #1488CC;
-    font-size: 1.1rem
 }
 
 .user-projects p {
@@ -355,14 +338,4 @@ h4 {
     margin-top: 10px;
     text-align: center;
     color: #fff;
-}
-
-.footer .love {
-    color: red
-}
-
-.footer a {
-    text-decoration: none;
-    margin: 0;
-    color: #fff
 }
