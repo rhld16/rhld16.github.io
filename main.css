@@ -94,7 +94,8 @@ h3 {
 }
 
 .header-links {
-    margin: 10px
+    margin: 10px;
+    pointer-events: auto;
 }
 
 .header-links .link {
@@ -113,7 +114,8 @@ h3 {
 .header-icons {
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    pointer-events: auto;
 }
 
 .down,
